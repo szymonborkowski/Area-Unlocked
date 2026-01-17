@@ -1,5 +1,2 @@
-# Ignore all data files currently used for testing #
-*.txt
-
 # Ignore virtual environment #
 venv

@@ -108,7 +108,7 @@ def convert_gprmc_to_geojson(input_file, output_file):
     print("Parsed GPS file successfuly.")
 
 
-# Convert each GPS journey file into .geojson format
+# Convert each GPS journey file into .geojson
 for file in os.listdir("journeys_gps"):
     if file == ".gitignore":
         continue

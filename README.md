@@ -10,12 +10,31 @@ The game is to choose an area that you want to explore and use this project to k
 # Instructions
 
 ### Collect Data
-- Use a device to collect GPS data of your journey.
-- Run the software to parse the NMEA sentences into .geojson files.
-- Store the .geojson files in the `journeys_gps/` directory.
+- Connect SD card shield, SD card, wires, resistor, and button as shown in system image below.
+- Upload 'arduino_gps/arduino_gps.ino' file onto Arduino Uno.
+- Collect GPS data of your journey using the Arduino and GPS system.
+- Store all your journeys in the `journeys_gps/` directory.
 
 ### Run the Script
-- `python data_parsing.py`
+- Run the software to parse the NMEA sentences into .geojson files: `python data_parsing.py`
 
 ### View the Result
 - Open `area_map.html` file.
+
+# Journey Tracker (GPS Data System)
+- This system will gather GPS coordinates from your journeys.
+
+### Bill of Materials
+- Required items include:
+    - Arduino Uno
+    - SD Card Shield (seeed studio v4.4)
+    - SD card
+    - GPS (adafruit Ultimate GPS Breakout v3)
+    - Button
+    - Resistor
+    - Wires
+    - Battery (Powerbank)
+    - USB type A cable
+
+### Physical System:
+![Arduino with SD Card Shield and GPS](images/system.jpg "GPS Tracker")
