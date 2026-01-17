@@ -6,3 +6,16 @@ This project tracks your runs and overlays them on top of each other on a map, t
 The game is to choose an area that you want to explore and use this project to keep track of your progress.
 
 [View the Interactive Map Here](https://szymonborkowski.github.io/Area-Unlocked)
+
+# Instructions
+
+### Collect Data
+- Use a device to collect GPS data of your journey.
+- Run the software to parse the NMEA sentences into .geojson files.
+- Store the .geojson files in the `journeys_gps/` directory.
+
+### Run the Script
+- `python data_parsing.py`
+
+### View the Result
+- Open `area_map.html` file.
